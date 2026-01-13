@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
-import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser";
+
 
 const ContactUs = () => {
   const [popupVisible, setPopupVisible] = useState(false);
@@ -37,7 +38,7 @@ const ContactUs = () => {
             className="fixed top-10 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50"
           >
             <p className="text-center font-semibold">
-              Thank you for responding. We will respond to you within 24 hours.
+              Thank you for responding!.We will respond to you within 24 hours.
             </p>
           </motion.div>
         )}
