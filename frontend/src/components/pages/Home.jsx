@@ -191,7 +191,7 @@ const Home = () => {
               Comprehensive <span className="text-sky-700">Business Solutions</span>
             </h2>
             <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-              Tailored professional services across multiple industries to meet your specific needs
+              Tailored professional services across multiple industries to meet your specific needs.
             </p>
           </div>
 
