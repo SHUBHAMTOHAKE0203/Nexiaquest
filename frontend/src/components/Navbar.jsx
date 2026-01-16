@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="bg-white text-sm px-6 py-2 flex justify-between items-center border-b">
         <div className="text-gray-600 flex items-center gap-6 text-sm pl-4">
   <span className="flex items-center gap-2">
-    <FaMapMarkerAlt className="text-blue-900" /> Thane, India
+    <FaMapMarkerAlt className="text-blue-900" /> Thane,India
   </span>
   <span className="flex items-center gap-2">
     <FaPhoneAlt className="text-blue-900" /> 9529412675
