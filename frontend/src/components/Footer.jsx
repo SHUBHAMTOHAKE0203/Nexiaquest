@@ -9,7 +9,7 @@ const Footer = () => {
     const [chatMessages, setChatMessages] = useState([
         {
             sender: 'nexia',
-            text: 'Hi there! 👋 I\'m NEXIA, your AI assistant. Ask me anything about our services, pricing, or how we can help your business grow. I\'m here 24/7 to assist you!'
+            text: 'Hi there! 👋 I\'m NEXIA, your AI assistant. Ask me anything about our services, pricing,or how we can help your business grow. I\'m here 24/7 to assist you!'
         }
     ]);
     const [isChatOpen, setIsChatOpen] = useState(false);
